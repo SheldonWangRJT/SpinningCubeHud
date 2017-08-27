@@ -17,11 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/daniel.wangxiao@gmail.com/SCHud'
+  s.description      = 'SpinningCubeHud is an interesting loading indicator that demonstrates the loading with a spinning cube as its name. It is easy to customize, with two default theme built in already. It can also allows user interact with the cube to pass the boring loading time, say, if the network is not good.'
+  s.homepage         = 'https://github.com/SheldonWangRJT/SpinningCubeHud'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'daniel.wangxiao@gmail.com' => 'daniel.wangxiao@gmail.com' }
