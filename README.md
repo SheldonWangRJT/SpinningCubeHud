@@ -22,7 +22,7 @@ pod "SCHud"
 
 ## Author
 
-daniel.wangxiao@gmail.com, daniel.wangxiao@gmail.com
+daniel.wangxiao@gmail.com
 
 ## License
 

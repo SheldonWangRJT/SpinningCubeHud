@@ -1,0 +1,6 @@
+framework module Pods_SCHud_Tests {
+  umbrella header "Pods-SCHud_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SCHud",
+  "version": "0.1.0",
+  "summary": "A short description of SCHud.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/daniel.wangxiao@gmail.com/SCHud",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "daniel.wangxiao@gmail.com": "daniel.wangxiao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/daniel.wangxiao@gmail.com/SCHud.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SCHud/Classes/**/*"
+}

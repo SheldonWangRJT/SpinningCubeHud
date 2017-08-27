@@ -1,0 +1,6 @@
+framework module SCHud {
+  umbrella header "SCHud-umbrella.h"
+
+  export *
+  module * { export * }
+}
