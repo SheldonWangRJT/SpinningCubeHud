@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import SCHud
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let hud = SCHudView()
+        hud.titleDesc = "Loading..."
+        hud.viewTheme = .rainbow
+        hud.viewSize = .huge
+        hud.show(to: view)
     }
 
     override func didReceiveMemoryWarning() {

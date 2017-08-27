@@ -1,9 +1,9 @@
 {
   "name": "SCHud",
   "version": "0.1.0",
-  "summary": "A short description of SCHud.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/daniel.wangxiao@gmail.com/SCHud",
+  "summary": "An interesting 3D loading indicator that user can interact with.",
+  "description": "SpinningCubeHud is an interesting loading indicator that demonstrates the loading with a spinning cube as its name. It is easy to customize, with two default theme built in already. It can also allows user interact with the cube to pass the boring loading time, say, if the network is not good.",
+  "homepage": "https://github.com/SheldonWangRJT/SpinningCubeHud",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "SCHud/Classes/**/*"
 }

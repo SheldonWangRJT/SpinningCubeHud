@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import SCHud
+//import SCHud
 
 class Tests: XCTestCase {
     
