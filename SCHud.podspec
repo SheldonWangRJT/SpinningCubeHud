@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SCHud'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SCHud.'
+  s.summary          = 'An interesting 3D loading indicator that user can interact with.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
