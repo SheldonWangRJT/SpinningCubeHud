@@ -13,10 +13,11 @@
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		265452B95917CCF1562AFFBF45B3050B /* Pods-SCHud_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6F7A0FA16F66A0C057D6ED7D99FC5E /* Pods-SCHud_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274FFB8C17E1371DAC30C3B58E675020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4DB08B5C5BE7B64A1391945D60F574E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		470D53708E490D93492BA90931D6BECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		5016C3B793906E5D2864237C2DB42316 /* Pods-SCHud_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E850BC9E8C4B49D66BDF47FB93918D /* Pods-SCHud_Tests-dummy.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		5A6E010B223D1D3D051C1E63455BBF80 /* SCHud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D4574FF9EBD85C6098CAB2937C58E /* SCHud-dummy.m */; };
@@ -143,11 +144,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C87C1C506CA6010D77D1DAE74864E6C /* Frameworks */ = {
+		A4FFBD383FC0AA880B9B1691BCE0FDC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB08B5C5BE7B64A1391945D60F574E6 /* Foundation.framework in Frameworks */,
+				274FFB8C17E1371DAC30C3B58E675020 /* Foundation.framework in Frameworks */,
+				470D53708E490D93492BA90931D6BECA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +416,7 @@
 			buildConfigurationList = C3531D670DE2AB10CE5E4C58492108F9 /* Build configuration list for PBXNativeTarget "SCHud" */;
 			buildPhases = (
 				E45282EAFD1A0805A9FE78A20EB156C8 /* Sources */,
-				5C87C1C506CA6010D77D1DAE74864E6C /* Frameworks */,
+				A4FFBD383FC0AA880B9B1691BCE0FDC9 /* Frameworks */,
 				95CEE938B9AF502431103A77E39D69CF /* Headers */,
 			);
 			buildRules = (

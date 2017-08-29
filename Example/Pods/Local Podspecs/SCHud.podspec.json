@@ -1,7 +1,10 @@
 {
   "name": "SCHud",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "An interesting 3D loading indicator that user can interact with.",
+  "platforms": {
+    "ios": "9.0"
+  },
   "description": "SpinningCubeHud is an interesting loading indicator that demonstrates the loading with a spinning cube as its name. It is easy to customize, with two default theme built in already. It can also allows user interact with the cube to pass the boring loading time, say, if the network is not good.",
   "homepage": "https://github.com/SheldonWangRJT/SpinningCubeHud",
   "license": {
@@ -12,11 +15,9 @@
     "daniel.wangxiao@gmail.com": "daniel.wangxiao@gmail.com"
   },
   "source": {
-    "git": "https://github.com/daniel.wangxiao@gmail.com/SCHud.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/SheldonWangRJT/SpinningCubeHud.git",
+    "tag": "0.2.0"
   },
-  "platforms": {
-    "ios": "9.0"
-  },
-  "source_files": "SCHud/Classes/**/*"
+  "source_files": "SCHud/Classes/**/*",
+  "frameworks": "UIKit"
 }
