@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SCHud'
+"test"
   s.version          = '0.2.0'
   s.summary          = 'An interesting 3D loading indicator that user can interact with.'
   s.platform = :ios, "9.0"
